@@ -4,7 +4,7 @@
 Goetz Pfeiffer's Project Site License
 =====================================
 
-Copyright (c) 2024 by Goetz Pfeiffer <goetzpf@googlemail.com>.
+Copyright (c) 2025 by Goetz Pfeiffer <goetzpf@googlemail.com>.
 
 The source files of this site can be used GPL v.3, see GNU GENERAL PUBLIC LICENSE below.
 
