@@ -36,6 +36,8 @@ Software development
 
 These are tools that in general help software development:
 
+- `git-gq <https://goetzpf.github.io/git-gq/>`_: A patch queue implementation
+  for git. This is inspired by mercurial (mq) patch queues.
 - `hg-diff <https://hg-diff.sourceforge.net/>`_: hg-diff is a program to browse
   and compare mercurial revisions.
 - `hgstat <https://github.com/goetzpf/hgstat>`_: A shell script to display the
