@@ -81,6 +81,9 @@ The following list shows projects that are used for EPICS:
   `Perl <https://en.wikipedia.org/wiki/Perl>`_ interface to
   `channel access <https://docs.epics-controls.org/en/latest/internal/ca_protocol.html>`_,
   the `EPICS <https://epics-controls.org/>`_ network protocol.
+- `epics-configure-iptables <https://github.com/goetzpf/epics-configure-iptables/>`_: 
+  A script that configures iptables to convert UDP broadcasts to a given port to UDP unicasts. This solves the problem with UDP unicasts when you run several channel access
+  servers on a single host.
 - `sumo <https://epics-sumo.sourceforge.io/>`_: The support module manager sumo
   is a program to build consistent sets of EPICS support modules and use them
   in EPICS applications.
