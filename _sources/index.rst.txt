@@ -227,7 +227,7 @@ Projects that don't fit another category.
 
 - `bash-dirstack <https://github.com/goetzpf/bash-dirstack>`_: Implements
   a flexible directory stack for the bash shell.
-- `bii_scripts <https://sourceforge.net/projects/bii-scripts/>`_: A collection
+- `bii_scripts <https://bii-scripts.sourceforge.io>`_: A collection
   of scripts for generic software development and for working with
   `EPICS <https://epics-controls.org/>`_.
 
