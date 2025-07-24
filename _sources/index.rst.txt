@@ -87,6 +87,13 @@ The following list shows projects that are used for EPICS:
 - `sumo <https://epics-sumo.sourceforge.io/>`_: The support module manager sumo
   is a program to build consistent sets of EPICS support modules and use them
   in EPICS applications.
+- `udp-broadcaster <https://github.com/goetzpf/udp-broadcaster>`_: This program
+  receives udp broadcast packets on one interface and port and
+  forwards these to one or more other interfaces. It is used at the 
+  `Helmholtz-Zentrum Berlin <https://www.helmholtz-berlin.de>`_ to forward 
+  `EPICS <https://epics-controls.org/>`_  name resolution requests to other networks
+  for the channel access gateway infrastructure.
+
 
 EPICS Device Supports
 =====================
