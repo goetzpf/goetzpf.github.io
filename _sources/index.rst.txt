@@ -121,6 +121,9 @@ Projects that implement interfaces to certain hardware for
   `almLib <https://sourceforge.net/projects/almlib-hzb/>`_. This
   is a high resolution timer for Linux PCs and the mvme2100 or mvme5500 VME bus
   cpu card with the RTEMS operating system.
+- `bspdep-vmetas <https://sourceforge.net/projects/bspdep-vmetas-hzb/>`_: 
+  Implements VME test-and-set functions for the RTEMS operating system for VME
+  CPU boards mvme2100, mvme5500, mvme6100.
 - `misc_dbc <https://sourceforge.net/projects/misc-dbc-hzb/>`_: 
   An `EPICS <https://epics-controls.org/>`_ device support that
   provides some assertion macros, nothing else.
