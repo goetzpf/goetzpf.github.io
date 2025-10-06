@@ -10,13 +10,13 @@ Welcome to Goetz Pfeiffer's Project Site
    :maxdepth: 2
    :caption: Contents:
 
-This is a list of open source projects mostly related to my work at the 
+This is a list of open source projects mostly related to my work at the
 `Helmholtz-Zentrum Berlin <https://www.helmholtz-berlin.de>`_.
 
 For some projects, I am the only developer, for others I have made
 contributions.
 
-A third category of projects have no contributions by me but are republished 
+A third category of projects have no contributions by me but are republished
 here since they are very old and hard to find anywhere else.
 
 All projects are have some kind of open source license, the copyright
@@ -27,8 +27,8 @@ Databases
 
 Projects that act as a database.
 
-- `YAML-StructuredData <https://yaml-structureddata.sourceforge.io/>`_:
-  Software to manage, organize, storing and type-check your data 
+- `YAML-StructuredData <https://yaml-structureddata.sourceforge.io/>`_ [#HZB]_:
+  Software to manage, organize, storing and type-check your data
   in the `YAML <https://en.wikipedia.org/wiki/YAML>`_ format.
 
 Software development
@@ -42,55 +42,55 @@ These are tools that in general help software development:
   and compare mercurial revisions.
 - `hgstat <https://github.com/goetzpf/hgstat>`_: A shell script to display the
   overall state of a mercurial repository.
-- `hgen <https://sourceforge.net/projects/hgen/>`_: A tool to generate
+- `hgen <https://sourceforge.net/projects/hgen/>`_ [#HZB]_: A tool to generate
   C header files from special comments in C source files, written in perl.
-- `pyexpander <https://pyexpander.sourceforge.io>`_: A turing complete macro
+- `pyexpander <https://pyexpander.sourceforge.io>`_ [#HZB]_: A turing complete macro
   processor with python syntax
-- `rsync-dist <https://rsync-dist.sourceforge.io/>`_: This manages
-  the distribution of files, programs and binary data to a server. All 
+- `rsync-dist <https://rsync-dist.sourceforge.io/>`_ [#HZB]_: This manages
+  the distribution of files, programs and binary data to a server. All
   old versions are kept and active versions are selected with symbolic links.
 
 Field Bus I/O
 =============
 
-- `socan <https://socan.sourceforge.io/>`_: socan is a high level library for
+- `socan <https://socan.sourceforge.io/>`_ [#HZB]_: socan is a high level library for
   using the `CAN Bus <http://en.wikipedia.org/wiki/CAN_bus>`_
-  with `Linux <https://en.wikipedia.org/wiki/Linux>`_. 
-  It also enables 
-  `MultiCAN <https://sourceforge.net/projects/mcan/>`_ to be used on 
+  with `Linux <https://en.wikipedia.org/wiki/Linux>`_.
+  It also enables
+  `MultiCAN <https://sourceforge.net/projects/mcan/>`_ to be used on
   `Linux <https://en.wikipedia.org/wiki/Linux>`_ systems.
 
 EPICS Projects
 ==============
 
-`EPICS <https://epics-controls.org/>`_ 
+`EPICS <https://epics-controls.org/>`_
 is a set of software tools and applications which provide a software
 infrastructure for use in building distributed control systems to operate
 devices such as Particle Accelerators, Large Experiments and major Telescopes.
 
 The following list shows projects that are used for EPICS:
 
-- `DM2K <https://github.com/goetzpf/DM2K-HZB>`_: A display manager
+- `DM2K <https://github.com/goetzpf/DM2K-HZB>`_ [#HZB_C]_: A display manager
   for `EPICS <https://epics-controls.org/>`_. Note that this is legacy code. It
   is not recommended that you use this display manager for new developments.
 - `EDM <https://github.com/goetzpf/edm/tree/HZB>`_: A display manager
   for `EPICS <https://epics-controls.org/>`_. Check out with
   ``git clone -b HZB https://github.com/goetzpf/edm.git``,
   then follow instructions in file "README.install" under heading "HZB branch".
-- `Pezca <https://pezca.sourceforge.io/>`_: A 
+- `Pezca <https://pezca.sourceforge.io/>`_ [#HZB]_: A
   `Perl <https://en.wikipedia.org/wiki/Perl>`_ interface to
   `channel access <https://docs.epics-controls.org/en/latest/internal/ca_protocol.html>`_,
   the `EPICS <https://epics-controls.org/>`_ network protocol.
-- `epics-configure-iptables <https://github.com/goetzpf/epics-configure-iptables/>`_: 
+- `epics-configure-iptables <https://github.com/goetzpf/epics-configure-iptables/>`_ [#HZB]_:
   A script that configures iptables to convert UDP broadcasts to a given port to UDP unicasts. This solves the problem with UDP unicasts when you run several channel access
   servers on a single host.
-- `sumo <https://epics-sumo.sourceforge.io/>`_: The support module manager sumo
+- `sumo <https://epics-sumo.sourceforge.io/>`_ [#HZB]_: The support module manager sumo
   is a program to build consistent sets of EPICS support modules and use them
   in EPICS applications.
-- `udp-broadcaster <https://github.com/goetzpf/udp-broadcaster>`_: This program
+- `udp-broadcaster <https://github.com/goetzpf/udp-broadcaster>`_ [#HZB]_: This program
   receives udp broadcast packets on one interface and port and
-  forwards these to one or more other interfaces. It is used at the 
-  `Helmholtz-Zentrum Berlin <https://www.helmholtz-berlin.de>`_ to forward 
+  forwards these to one or more other interfaces. It is used at the
+  `Helmholtz-Zentrum Berlin <https://www.helmholtz-berlin.de>`_ to forward
   `EPICS <https://epics-controls.org/>`_  name resolution requests to other networks
   for the channel access gateway infrastructure.
 
@@ -98,70 +98,70 @@ The following list shows projects that are used for EPICS:
 EPICS Device Supports
 =====================
 
-Projects that implement interfaces to certain hardware for 
+Projects that implement interfaces to certain hardware for
 `EPICS <https://epics-controls.org/>`_.
 
-- `almLib <https://sourceforge.net/projects/almlib-hzb/>`_:
-  An `EPICS <https://epics-controls.org/>`_ 
-  high resolution timer and alarm clock library for 
-  `Linux <https://en.wikipedia.org/wiki/Linux>`_ and 
+- `almLib <https://sourceforge.net/projects/almlib-hzb/>`_ [#HZB]_:
+  An `EPICS <https://epics-controls.org/>`_
+  high resolution timer and alarm clock library for
+  `Linux <https://en.wikipedia.org/wiki/Linux>`_ and
   `RTEMS <https://www.rtems.org/>`_.
-- `apps_generictemplate <https://sourceforge.net/projects/apps-generictemplate-hzb/>`_:
+- `apps_generictemplate <https://sourceforge.net/projects/apps-generictemplate-hzb/>`_ [#HZB]_:
   An EPICS support module to create EPICS template and panel files for
   applications at the
   `Helmholtz-Zentrum Berlin <https://www.helmholtz-berlin.de>`__
 - `apps_iocwatch <https://sourceforge.net/projects/apps-iocwatch-hzb/>`_:
   EPICS IOC statistics support for Linux PCs and for the mvme162, mvme2100 and
   mvme5500 CPUs running with `RTEMS <https://www.rtems.org/>`__.
-- `apps_powersupplies <https://sourceforge.net/projects/apps-powersupplies-hzb/>`_:
-  An EPICS support module to control power supplies at the 
+- `apps_powersupplies <https://sourceforge.net/projects/apps-powersupplies-hzb/>`_ [#HZB]_:
+  An EPICS support module to control power supplies at the
   `Helmholtz-Zentrum Berlin <https://www.helmholtz-berlin.de>`__
-- `bspdep-timer <https://sourceforge.net/projects/bspdep-timer-hzb/>`_: 
-  A timer device support needed by 
-  `almLib <https://sourceforge.net/projects/almlib-hzb/>`_. This
+- `bspdep-timer <https://sourceforge.net/projects/bspdep-timer-hzb/>`_ [#HZB]_:
+  A timer device support needed by
+  `almLib <https://sourceforge.net/projects/almlib-hzb/>`_ [#HZB]_. This
   is a high resolution timer for Linux PCs and the mvme2100 or mvme5500 VME bus
   cpu card with the RTEMS operating system.
-- `bspdep-vmetas <https://sourceforge.net/projects/bspdep-vmetas-hzb/>`_: 
+- `bspdep-vmetas <https://sourceforge.net/projects/bspdep-vmetas-hzb/>`_ [#HZB]_:
   Implements VME test-and-set functions for the RTEMS operating system for VME
   CPU boards mvme2100, mvme5500, mvme6100.
-- `misc_dbc <https://sourceforge.net/projects/misc-dbc-hzb/>`_: 
+- `misc_dbc <https://sourceforge.net/projects/misc-dbc-hzb/>`_ [#HZB]_:
   An `EPICS <https://epics-controls.org/>`_ device support that
   provides some assertion macros, nothing else.
-- `MultiCAN <https://sourceforge.net/projects/mcan/>`_: An 
-  `EPICS <https://epics-controls.org/>`_ device support for the 
+- `MultiCAN <https://sourceforge.net/projects/mcan/>`_ [#HZB]_: An
+  `EPICS <https://epics-controls.org/>`_ device support for the
   `CAN Bus <http://en.wikipedia.org/wiki/CAN_bus>`_. Supports
   the operating systems `RTEMS <https://www.rtems.org/>`_ and
   `Linux <https://en.wikipedia.org/wiki/Linux>`_. For Linux support
   see also `socan <https://socan.sourceforge.io/>`_.
-- `EPICS sequencer <https://epics-sequencer-hzb.sourceforge.io/>`_: 
-  The Sequencer implements a language for programming state machines 
+- `EPICS sequencer <https://epics-sequencer-hzb.sourceforge.io/>`_ [#HZB_C]_:
+  The Sequencer implements a language for programming state machines
   with the `EPICS <https://epics-controls.org/>`_ framework.
-- `soft_devhwclient <https://sourceforge.net/projects/soft-devhwclient-hzb/>`_: 
+- `soft_devhwclient <https://sourceforge.net/projects/soft-devhwclient-hzb/>`_ [#HZB]_:
   A special record for
-  `MultiCAN <https://sourceforge.net/projects/mcan/>`_. 
+  `MultiCAN <https://sourceforge.net/projects/mcan/>`_.
 
 RTEMS support
 =============
 
 The operating systems `RTEMS <https://www.rtems.org/>`_ is an open
-source real time operating system. 
+source real time operating system.
 
 At the
 `Helmholtz-Zentrum Berlin <https://www.helmholtz-berlin.de>`__
-`RTEMS <https://www.rtems.org/>`_ is used on 
+`RTEMS <https://www.rtems.org/>`_ is used on
 `VME Bus <https://en.wikipedia.org/wiki/VMEbus>`_ systems in the
 control system.
 
 The following list shows projects that help with RTEMS software development:
 
-- `rtems-from-scratch <https://rtems-from-scratch.sourceforge.io/>`_: This
-  helps to build the RTEMS cross compiler and other development tools. 
+- `rtems-from-scratch <https://rtems-from-scratch.sourceforge.io/>`_ [#HZB]_: This
+  helps to build the RTEMS cross compiler and other development tools.
   Very old RTEMS versions like version 4.9 are abandoned on the RTEMS project
   and the cross development tools can no longer be built directly. This project
-  allows to create the cross development tools for RTEMS 4.9, 4.10, 4.11 and 
+  allows to create the cross development tools for RTEMS 4.9, 4.10, 4.11 and
   5.1.
-- `rtems-build-tool <https://rtems-build-tool.sourceforge.io/>`_: This helps
-  to build a RTEMS boot image for 
+- `rtems-build-tool <https://rtems-build-tool.sourceforge.io/>`_ [#HZB]_: This helps
+  to build a RTEMS boot image for
   `VME Bus <https://en.wikipedia.org/wiki/VMEbus>`_ CPUs at the
   `Helmholtz-Zentrum Berlin <https://www.helmholtz-berlin.de>`__.
   For RTEMS 4.9 it also compiles cexp and GeSys in the boot image which implement
@@ -175,9 +175,9 @@ These are used by
 downloads them for you. These projects are here just for completeness.
 
 - `A modified RTEMS kernel <https://github.com/goetzpf/rtems-HZB-kernel>`_: This
-  is the original RTEMS kernel repository with some extra branches 
+  is the original RTEMS kernel repository with some extra branches
   (4.9.6-HZB and 4.10.2-HZB) that contain additional patches developed
-  at the 
+  at the
   `Helmholtz-Zentrum Berlin <https://www.helmholtz-berlin.de>`__.
   This repository is automatically fetched when you use
   `rtems-build-tool <https://rtems-build-tool.sourceforge.io/>`_, so
@@ -187,12 +187,12 @@ downloads them for you. These projects are here just for completeness.
   This repository is automatically fetched when you use
   `rtems-build-tool <https://rtems-build-tool.sourceforge.io/>`_, so
   you usually don't have to download this yourself.
-- `RTEMS libbspext <https://github.com/goetzpf/rtems-HZB-libbspext>`_: 
+- `RTEMS libbspext <https://github.com/goetzpf/rtems-HZB-libbspext>`_:
   Extended board support for RTEMS 4.9 on mvme2100 VME bus cpus.
   This repository is automatically fetched when you use
   `rtems-build-tool <https://rtems-build-tool.sourceforge.io/>`_, so
   you usually don't have to download this yourself.
-- `RTEMS bootlib <https://github.com/goetzpf/rtems-HZB-bootlib>`_:
+- `RTEMS bootlib <https://github.com/goetzpf/rtems-HZB-bootlib>`_ [#HZB]_:
   Boot parameter support for RTEMS on VME Bus CPUs.
   This repository is automatically fetched when you use
   `rtems-build-tool <https://rtems-build-tool.sourceforge.io/>`_, so
@@ -210,24 +210,24 @@ Undulator control
 This is software used to control
 `Undulators <https://en.wikipedia.org/wiki/Undulator>`_ at the
 `BESSY <https://en.wikipedia.org/wiki/BESSY>`_ synchrotron facility
-at the 
+at the
 `Helmholtz-Zentrum Berlin <http://www.helmholtz-berlin.de/>`__.
 
-- `IDCP <https://idcp.sourceforge.io/>`_: The insertion device control program.
+- `IDCP <https://idcp.sourceforge.io/>`_ [#HZB]_: The insertion device control program.
   This program runs on
-  `Linux <https://en.wikipedia.org/wiki/Linux>`_ and 
+  `Linux <https://en.wikipedia.org/wiki/Linux>`_ and
   `RTEMS <https://www.rtems.org/>`_.
-- `IDCP Documentation <https://idcp-documentation.sourceforge.io/>`_: 
-  This is comprehensive documentation of 
+- `IDCP Documentation <https://idcp-documentation.sourceforge.io/>`_ [#HZB]_:
+  This is comprehensive documentation of
   `Undulator <https://en.wikipedia.org/wiki/Undulator>`_ control
   at `BESSY <https://en.wikipedia.org/wiki/BESSY>`_ and
   related programs.
-- `id-db <https://id-db.sourceforge.io/>`_:
-  The parameter database for `IDCP <https://idcp.sourceforge.io/>`_, 
+- `id-db <https://id-db.sourceforge.io/>`_ [#HZB]_:
+  The parameter database for `IDCP <https://idcp.sourceforge.io/>`_,
   the insertion device control program.
-- `uniserv <https://idcs-uniserv.sourceforge.io/>`_,
+- `uniserv <https://idcs-uniserv.sourceforge.io/>`_ [#HZB]_,
   The program that runs on the UniDrive motor control device that is used
-  for the `BESSY <https://en.wikipedia.org/wiki/BESSY>`_ 
+  for the `BESSY <https://en.wikipedia.org/wiki/BESSY>`_
   `Undulators <https://en.wikipedia.org/wiki/Undulator>`_.
 
 Miscellaneous
@@ -237,12 +237,25 @@ Projects that don't fit another category.
 
 - `bash-dirstack <https://github.com/goetzpf/bash-dirstack>`_: Implements
   a flexible directory stack for the bash shell.
-- `bii_scripts <https://bii-scripts.sourceforge.io>`_: A collection
+- `bii_scripts <https://bii-scripts.sourceforge.io>`_ [#HZB]_: A collection
   of scripts for generic software development and for working with
   `EPICS <https://epics-controls.org/>`_.
 
-License
-=======
+License of this web site
+========================
 
-For the license of the sources of this web site see
+For the license of this this web site see
 :doc:`license`.
+
+Footnotes
+=========
+
+.. [#HZB]
+   All these projects are copyrighted by the
+   `Helmholtz-Zentrum Berlin <https://www.helmholtz-berlin.de>`_.
+
+.. [#HZB_C]
+   These projects have large contrihbutions from the control system group of
+   the `Helmholtz-Zentrum Berlin <https://www.helmholtz-berlin.de>`_ and are
+   maintained here.
+
