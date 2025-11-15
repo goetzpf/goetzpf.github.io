@@ -82,11 +82,15 @@ The following list shows projects that are used for EPICS:
   `channel access <https://docs.epics-controls.org/en/latest/internal/ca_protocol.html>`_,
   the `EPICS <https://epics-controls.org/>`_ network protocol.
 - `epics-configure-iptables <https://github.com/goetzpf/epics-configure-iptables/>`_ [#HZB]_:
-  A script that configures iptables to convert UDP broadcasts to a given port to UDP unicasts. This solves the problem with UDP unicasts when you run several channel access
-  servers on a single host.
+  A script that configures iptables to convert UDP broadcasts to a given port
+  to UDP unicasts. This solves the problem with UDP unicasts when you run
+  several channel access servers on a single host.
 - `sumo <https://epics-sumo.sourceforge.io/>`_ [#HZB]_: The support module manager sumo
   is a program to build consistent sets of EPICS support modules and use them
   in EPICS applications.
+- `sumo-free-database <https://sumo-free-database.sourceforge.io/>`_ [#HZB]_: 
+  This project contains a dependency database for sumo with some common
+  EPICS device supports published by various institutions.
 - `udp-broadcaster <https://github.com/goetzpf/udp-broadcaster>`_ [#HZB]_: This program
   receives udp broadcast packets on one interface and port and
   forwards these to one or more other interfaces. It is used at the
@@ -139,6 +143,10 @@ Projects that implement interfaces to certain hardware for
 - `soft_devhwclient <https://sourceforge.net/projects/soft-devhwclient-hzb/>`_ [#HZB]_:
   A special record for
   `MultiCAN <https://sourceforge.net/projects/mcan/>`_.
+- `vdrive <https://sourceforge.net/projects/vdrive-hzb/>`_ [#HZB]_:
+  vdrive provides virtual drives. These are simulated motor drives that can be
+  used in an application that simulates devices that have motors that need to
+  be controlled.
 
 RTEMS support
 =============
@@ -225,10 +233,13 @@ at the
 - `id-db <https://id-db.sourceforge.io/>`_ [#HZB]_:
   The parameter database for `IDCP <https://idcp.sourceforge.io/>`_,
   the insertion device control program.
-- `uniserv <https://idcs-uniserv.sourceforge.io/>`_ [#HZB]_,
+- `uniserv <https://idcs-uniserv.sourceforge.io/>`_ [#HZB]_:
   The program that runs on the UniDrive motor control device that is used
   for the `BESSY <https://en.wikipedia.org/wiki/BESSY>`_
   `Undulators <https://en.wikipedia.org/wiki/Undulator>`_.
+- `unisim <https://idcs-unisim.sourceforge.io/>`_ [#HZB]_:
+  unisim emulates a set of UniDrive motor control devices that run the uniserv
+  program.
 
 Miscellaneous
 =============
