@@ -137,7 +137,7 @@ Projects that implement interfaces to certain hardware for
   the operating systems `RTEMS <https://www.rtems.org/>`_ and
   `Linux <https://en.wikipedia.org/wiki/Linux>`_. For Linux support
   see also `socan <https://socan.sourceforge.io/>`_.
-. `pyphoebusalarm <https://sourceforge.net/projects/pyphoebusalarm/>`_ [#HZB]_:
+- `pyphoebusalarm <https://sourceforge.net/projects/pyphoebusalarm/>`_ [#HZB]_:
   A Python package to create alarm configurations for Phoebus.
 - `EPICS sequencer <https://epics-sequencer-hzb.sourceforge.io/>`_ [#HZB_C]_:
   The Sequencer implements a language for programming state machines
