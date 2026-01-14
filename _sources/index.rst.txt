@@ -128,6 +128,9 @@ Projects that implement interfaces to certain hardware for
 - `bspdep-vmetas <https://sourceforge.net/projects/bspdep-vmetas-hzb/>`_ [#HZB]_:
   Implements VME test-and-set functions for the RTEMS operating system for VME
   CPU boards mvme2100, mvme5500, mvme6100.
+- `caenels <https://sourceforge.net/projects/caenels-hzb/>`_ [#HZB]_:
+  A device support for ethernet controlled power supplies by 
+  `CAEN <https://www.caen.it/sections/power-supply/>`_.
 - `misc_dbc <https://sourceforge.net/projects/misc-dbc-hzb/>`_ [#HZB]_:
   An `EPICS <https://epics-controls.org/>`_ device support that
   provides some assertion macros, nothing else.
