@@ -120,6 +120,10 @@ Projects that implement interfaces to certain hardware for
 - `apps_powersupplies <https://sourceforge.net/projects/apps-powersupplies-hzb/>`_ [#HZB]_:
   An EPICS support module to control power supplies at the
   `Helmholtz-Zentrum Berlin <https://www.helmholtz-berlin.de>`__
+- `bessyrules <https://sourceforge.net/projects/bessyrules/>`_ [#HZB]_:
+  These are various Makefile rules for the EPICS makefile system. They are used
+  to build applications at the
+  `Helmholtz-Zentrum Berlin <https://www.helmholtz-berlin.de>`__
 - `bspdep-timer <https://sourceforge.net/projects/bspdep-timer-hzb/>`_ [#HZB]_:
   A timer device support needed by
   `almLib <https://sourceforge.net/projects/almlib-hzb/>`_ [#HZB]_. This
