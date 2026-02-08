@@ -81,6 +81,14 @@ The following list shows projects that are used for EPICS:
   `Perl <https://en.wikipedia.org/wiki/Perl>`_ interface to
   `channel access <https://docs.epics-controls.org/en/latest/internal/ca_protocol.html>`_,
   the `EPICS <https://epics-controls.org/>`_ network protocol.
+- `PezcaCA <https://pezcaca.sourceforge.io/>`_ [#HZB]_: A
+  `Perl <https://en.wikipedia.org/wiki/Perl>`_ interface to
+  `channel access <https://docs.epics-controls.org/en/latest/internal/ca_protocol.html>`_,
+  the `EPICS <https://epics-controls.org/>`_ network protocol. This
+  is fully compatible with `Pezca <https://pezca.sourceforge.io/>`_ but only uses the 
+  `EPICS CA <https://www.slac.stanford.edu/grp/lcls/controls/global/doc/epics-base/current/html/CA.html>`_
+  Perl module that comes with `EPICS Base <https://github.com/epics-base/epics-base>`_,
+  so it is much easier to install.
 - `epics-configure-iptables <https://github.com/goetzpf/epics-configure-iptables/>`_ [#HZB]_:
   A script that configures iptables to convert UDP broadcasts to a given port
   to UDP unicasts. This solves the problem with UDP unicasts when you run
