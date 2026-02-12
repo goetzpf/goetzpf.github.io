@@ -242,11 +242,14 @@ at the
   This program runs on
   `Linux <https://en.wikipedia.org/wiki/Linux>`_ and
   `RTEMS <https://www.rtems.org/>`_.
-- `IDCP Documentation <https://idcp-documentation.sourceforge.io/>`_ [#HZB]_:
-  This is comprehensive documentation of
-  `Undulator <https://en.wikipedia.org/wiki/Undulator>`_ control
-  at `BESSY <https://en.wikipedia.org/wiki/BESSY>`_ and
-  related programs.
+- `IDCS Documentation <https://idcs-documentation.sourceforge.io/>`_ [#HZB]_:
+  Comprehensive documentation of the Insertion Device Control System
+  (IDCS) that controls
+  `Undulators <https://en.wikipedia.org/wiki/Undulator>`_ 
+  at `BESSY <https://en.wikipedia.org/wiki/BESSY>`_. This contains all
+  documentation on `IDCP <https://idcp.sourceforge.io/>`_,
+  `uniserv <https://idcs-uniserv.sourceforge.io/>`_, 
+  `unisim <https://idcs-unisim.sourceforge.io/>`_ and related programs.
 - `id-db <https://id-db.sourceforge.io/>`_ [#HZB]_:
   The parameter database for `IDCP <https://idcp.sourceforge.io/>`_,
   the insertion device control program.
