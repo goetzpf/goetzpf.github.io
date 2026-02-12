@@ -143,6 +143,9 @@ Projects that implement interfaces to certain hardware for
 - `caenels <https://sourceforge.net/projects/caenels-hzb/>`_ [#HZB]_:
   A device support for ethernet controlled power supplies by 
   `CAEN <https://www.caen.it/sections/power-supply/>`_.
+- `catool <https://sourceforge.net/projects/catool-hzb/>`_ [#HZB_C]_:
+  A device support that implements catools programs like "caget", "caput" from
+  EPICS Base as C functions.
 - `misc_dbc <https://sourceforge.net/projects/misc-dbc-hzb/>`_ [#HZB]_:
   An `EPICS <https://epics-controls.org/>`_ device support that
   provides some assertion macros, nothing else.
